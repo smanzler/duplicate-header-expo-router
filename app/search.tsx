@@ -9,6 +9,8 @@ const Search = () => {
         options={{
           title: "Search",
           headerSearchBarOptions: { placeholder: "Search" },
+          headerStyle: { backgroundColor: "blue" },
+          headerLargeTitle: true,
         }}
       />
       <Text>Search</Text>
